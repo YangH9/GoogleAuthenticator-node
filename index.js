@@ -97,7 +97,7 @@ class GoogleAuthenticator {
     return encodeURI(urlencoded);
   }
   getGoogleQRCodeAPIUrl(name, secret, title) {
-    return 'https://yhan99.github.io/qrcode?size=200&param=' + encodeURIComponent(this.getQRCodeText(name, secret, title));
+    return 'https://yangh9.github.io/qrcode?size=200&param=' + encodeURIComponent(this.getQRCodeText(name, secret, title));
   }
   verifyCode(secret, code, discrepancy, currentTimeSlice) {
     (typeof code !== 'number') && (code = code.toString());
